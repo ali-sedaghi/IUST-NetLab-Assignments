@@ -1,0 +1,254 @@
+2017/04/30 11:30:17 RIP: RIPd 0.99.22.4 starting: vty@2602
+2017/04/30 11:30:17 RIP: turn on r1-eth1
+2017/04/30 11:30:17 RIP: Redistribute new prefix 10.10.12.0/24 on the interface r1-eth1
+2017/04/30 11:30:17 RIP: triggered update!
+2017/04/30 11:30:17 RIP: turn on r1-eth2
+2017/04/30 11:30:17 RIP: Redistribute new prefix 10.10.14.0/24 on the interface r1-eth2
+2017/04/30 11:30:17 RIP: Redistribute new prefix 10.10.11.0/24 with nexthop 10.10.11.0 on the interface r1-eth3
+2017/04/30 11:30:18 RIP: multicast join at r1-eth1
+2017/04/30 11:30:18 RIP: multicast request on r1-eth1
+2017/04/30 11:30:18 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:30:18 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:18 RIP: multicast join at r1-eth2
+2017/04/30 11:30:18 RIP: multicast request on r1-eth2
+2017/04/30 11:30:18 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:30:18 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:18 RIP: ignore packet comes from myself
+2017/04/30 11:30:18 RIP: ignore packet comes from myself
+2017/04/30 11:30:19 RIP: update timer fire!
+2017/04/30 11:30:19 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:30:19 RIP: multicast announce on r1-eth1 
+2017/04/30 11:30:19 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:30:19 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:30:19 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:19 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:30:19 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:19 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:19 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:30:19 RIP: multicast announce on r1-eth2 
+2017/04/30 11:30:19 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:30:19 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:30:19 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:19 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:30:19 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:19 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:19 RIP: ignore packet comes from myself
+2017/04/30 11:30:19 RIP: ignore packet comes from myself
+2017/04/30 11:30:52 RIP: update timer fire!
+2017/04/30 11:30:52 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:30:52 RIP: multicast announce on r1-eth1 
+2017/04/30 11:30:52 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:30:52 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:30:52 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:52 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:30:52 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:52 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:52 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:30:52 RIP: multicast announce on r1-eth2 
+2017/04/30 11:30:52 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:30:52 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:30:52 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:30:52 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:30:52 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:52 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:30:52 RIP: ignore packet comes from myself
+2017/04/30 11:30:52 RIP: ignore packet comes from myself
+2017/04/30 11:31:24 RIP: update timer fire!
+2017/04/30 11:31:24 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:31:24 RIP: multicast announce on r1-eth1 
+2017/04/30 11:31:24 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:31:24 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:31:24 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:31:24 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:31:24 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:24 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:24 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:31:24 RIP: multicast announce on r1-eth2 
+2017/04/30 11:31:24 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:31:24 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:31:24 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:31:24 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:31:24 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:24 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:24 RIP: ignore packet comes from myself
+2017/04/30 11:31:24 RIP: ignore packet comes from myself
+2017/04/30 11:31:56 RIP: update timer fire!
+2017/04/30 11:31:56 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:31:56 RIP: multicast announce on r1-eth1 
+2017/04/30 11:31:56 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:31:56 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:31:56 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:31:56 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:31:56 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:56 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:56 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:31:56 RIP: multicast announce on r1-eth2 
+2017/04/30 11:31:56 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:31:56 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:31:56 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:31:56 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:31:56 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:56 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:31:56 RIP: ignore packet comes from myself
+2017/04/30 11:31:56 RIP: ignore packet comes from myself
+2017/04/30 11:32:26 RIP: update timer fire!
+2017/04/30 11:32:26 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:32:26 RIP: multicast announce on r1-eth1 
+2017/04/30 11:32:26 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:32:26 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:32:26 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:32:26 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:32:26 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:26 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:26 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:32:26 RIP: multicast announce on r1-eth2 
+2017/04/30 11:32:26 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:32:26 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:32:26 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:32:26 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:32:26 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:26 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:26 RIP: ignore packet comes from myself
+2017/04/30 11:32:26 RIP: ignore packet comes from myself
+2017/04/30 11:32:53 RIP: update timer fire!
+2017/04/30 11:32:53 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:32:53 RIP: multicast announce on r1-eth1 
+2017/04/30 11:32:53 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:32:53 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:32:53 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:32:53 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:32:53 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:53 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:53 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:32:53 RIP: multicast announce on r1-eth2 
+2017/04/30 11:32:53 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:32:53 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:32:53 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:32:53 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:32:53 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:53 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:32:53 RIP: ignore packet comes from myself
+2017/04/30 11:32:53 RIP: ignore packet comes from myself
+2017/04/30 11:33:17 RIP: update timer fire!
+2017/04/30 11:33:17 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:33:17 RIP: multicast announce on r1-eth1 
+2017/04/30 11:33:17 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:33:17 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:33:17 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:33:17 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:33:17 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:17 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:17 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:33:17 RIP: multicast announce on r1-eth2 
+2017/04/30 11:33:17 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:33:17 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:33:17 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:33:17 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:33:17 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:17 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:17 RIP: ignore packet comes from myself
+2017/04/30 11:33:17 RIP: ignore packet comes from myself
+2017/04/30 11:33:44 RIP: update timer fire!
+2017/04/30 11:33:44 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:33:44 RIP: multicast announce on r1-eth1 
+2017/04/30 11:33:44 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:33:44 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:33:44 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:33:44 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:33:44 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:44 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:44 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:33:44 RIP: multicast announce on r1-eth2 
+2017/04/30 11:33:44 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:33:44 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:33:44 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:33:44 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:33:44 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:44 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:33:44 RIP: ignore packet comes from myself
+2017/04/30 11:33:44 RIP: ignore packet comes from myself
+2017/04/30 11:34:09 RIP: update timer fire!
+2017/04/30 11:34:09 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:34:09 RIP: multicast announce on r1-eth1 
+2017/04/30 11:34:09 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:34:09 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:34:09 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:34:09 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:34:09 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:09 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:09 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:34:09 RIP: multicast announce on r1-eth2 
+2017/04/30 11:34:09 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:34:09 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:34:09 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:34:09 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:34:09 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:09 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:09 RIP: ignore packet comes from myself
+2017/04/30 11:34:09 RIP: ignore packet comes from myself
+2017/04/30 11:34:42 RIP: update timer fire!
+2017/04/30 11:34:42 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:34:42 RIP: multicast announce on r1-eth1 
+2017/04/30 11:34:42 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:34:42 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:34:42 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:34:42 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:34:42 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:42 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:42 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:34:42 RIP: multicast announce on r1-eth2 
+2017/04/30 11:34:42 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:34:42 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:34:42 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:34:42 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:34:42 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:42 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:34:42 RIP: ignore packet comes from myself
+2017/04/30 11:34:42 RIP: ignore packet comes from myself
+2017/04/30 11:35:12 RIP: update timer fire!
+2017/04/30 11:35:12 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:35:12 RIP: multicast announce on r1-eth1 
+2017/04/30 11:35:12 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:35:12 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:35:12 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:35:12 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:35:12 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:35:12 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:35:12 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:35:12 RIP: multicast announce on r1-eth2 
+2017/04/30 11:35:12 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:35:12 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:35:12 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:35:12 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:35:12 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:35:12 RIP:   10.10.12.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:35:12 RIP: ignore packet comes from myself
+2017/04/30 11:35:12 RIP: ignore packet comes from myself
+2017/04/30 11:35:31 RIP: Poisone 10.10.11.0/24 on the interface r1-eth3 with an infinity metric [delete]
+2017/04/30 11:35:31 RIP: triggered update!
+2017/04/30 11:35:31 RIP: SEND UPDATE to r1-eth1 ifindex 48
+2017/04/30 11:35:31 RIP: multicast announce on r1-eth1 
+2017/04/30 11:35:31 RIP: update routes on interface r1-eth1 ifindex 48
+2017/04/30 11:35:31 RIP: rip_send_packet 10.10.12.1 > 224.0.0.9 (r1-eth1)
+2017/04/30 11:35:31 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:35:31 RIP: SEND RESPONSE version 2 packet size 44
+2017/04/30 11:35:31 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 16
+2017/04/30 11:35:31 RIP:   10.10.14.0/24 -> 0.0.0.0 family 2 tag 0 metric 1
+2017/04/30 11:35:31 RIP: SEND UPDATE to r1-eth2 ifindex 56
+2017/04/30 11:35:31 RIP: multicast announce on r1-eth2 
+2017/04/30 11:35:31 RIP: update routes on interface r1-eth2 ifindex 56
+2017/04/30 11:35:31 RIP: rip_send_packet 10.10.14.1 > 224.0.0.9 (r1-eth2)
+2017/04/30 11:35:31 RIP: SEND to  224.0.0.9.520
+2017/04/30 11:35:31 RIP: SEND RESPONSE version 2 packet size 24
+2017/04/30 11:35:31 RIP:   10.10.11.0/24 -> 0.0.0.0 family 2 tag 0 metric 16
+2017/04/30 11:35:31 RIP: ignore packet comes from myself
+2017/04/30 11:35:31 RIP: ignore packet comes from myself
+2017/04/30 11:35:31 RIP: Poisone 10.10.11.0/24 on the interface r1-eth3 with an infinity metric [delete]
+2017/04/30 11:35:31 RIP: Poisone 10.10.11.0/24 on the interface r1-eth3 with an infinity metric [delete]
+2017/04/30 11:35:31 RIP: interface delete r1-eth3 index 44 flags 0x1002 metric 1 mtu 1500
+2017/04/30 11:35:31 RIP: Poisone 10.10.12.0/24 on the interface r1-eth1 with an infinity metric [delete]
+2017/04/30 11:35:31 RIP: turn off r1-eth1
+2017/04/30 11:35:31 RIP: interface delete r1-eth1 index 48 flags 0x1002 metric 1 mtu 1500
+2017/04/30 11:35:31 RIP: Poisone 10.10.14.0/24 on the interface r1-eth2 with an infinity metric [delete]
+2017/04/30 11:35:31 RIP: turn off r1-eth2
+2017/04/30 11:35:31 RIP: interface delete r1-eth2 index 56 flags 0x1002 metric 1 mtu 1500

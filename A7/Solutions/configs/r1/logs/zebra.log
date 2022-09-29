@@ -1,0 +1,10 @@
+2017/04/30 11:30:17 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/04/30 11:30:17 ZEBRA: zebra message received [ZEBRA_HELLO] 1
+2017/04/30 11:30:17 ZEBRA: client 16 says hello and bids fair to announce only rip routes
+2017/04/30 11:30:17 ZEBRA: zebra message received [ZEBRA_ROUTER_ID_ADD] 0
+2017/04/30 11:30:17 ZEBRA: zebra message received [ZEBRA_INTERFACE_ADD] 0
+2017/04/30 11:30:17 ZEBRA: zebra message received [ZEBRA_REDISTRIBUTE_ADD] 1
+2017/04/30 11:32:25 ZEBRA: Vty connection from 127.0.0.1
+2017/04/30 15:20:41 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
+2017/04/30 15:22:42 ZEBRA: Vty connection from 127.0.0.1
+2017/04/30 15:27:38 ZEBRA: Zebra 0.99.22.4 starting: vty@2601
