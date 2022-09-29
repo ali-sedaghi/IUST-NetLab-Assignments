@@ -1,7 +1,10 @@
 # IUST-NetLab-Assignments
 My solutions to IUST's Computer Networks Laboratory assignments, Spring 2022, Rashidi
+
 Group members: Ali Sedaghi, Danial Bazmandeh
+
 MiniNet, Python, and Wireshark are used in all assignments.
+
 
 ## Outline
 
